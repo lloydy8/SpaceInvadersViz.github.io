@@ -12,7 +12,7 @@ const svg2 = d3.select("#parallel")
         `translate(${margin1.left},${margin1.top})`);
 
 
-d3.csv("https://raw.githubusercontent.com/lloydy8/SpaceInvaders/main/parallel.csv").then( function(data1) {
+d3.csv("https://raw.githubusercontent.com/lloydy8/lloydy8.github.io/main/datasets/parallel.csv").then( function(data1) {
 
   // Color scale: give me a specie name, I return a color
   const color = d3.scaleOrdinal()
