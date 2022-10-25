@@ -18,7 +18,7 @@ const fetch4Text=async (url)=> {
 }
 
 ;
-const csv4Url="https://raw.githubusercontent.com/lloydy8/SpaceInvaders/main/barline.csv"
+const csv4Url="https://raw.githubusercontent.com/lloydy8/lloydy8.github.io/main/datasets/barline.csv"
 
 
 fetch4Text(csv4Url).then(text=> {
