@@ -1,0 +1,4 @@
+agent,mean_score,mean_length,mean_reward,std_score
+Timestep 2150000,574.5,1265.4,34.9,62.47
+Timestep 3050000,769,1500,41.4,204.16
+Timestep 3400000,506.5,1198.8,30.2,192.89
