@@ -32,7 +32,7 @@ const colour = d3.scaleOrdinal()
 function update(selectedVar) {
 
   // Parse the Data
-  d3.csv("https://raw.githubusercontent.com/lloydy8/SpaceInvaders/main/stats.csv").then( function(data) {
+  d3.csv("https://raw.githubusercontent.com/lloydy8/lloydy8.github.io/main/datasets/stats.csv").then( function(data) {
 
     // X axis
     x6.domain(data.map(d => d.agent));
