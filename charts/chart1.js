@@ -64,7 +64,7 @@ svg.selectAll("bar")
     d3.select("#tooltip").style("opacity", 1)
     .html("Timestep: " + i.timestep +  "<br/>" + "Episode Length: " + i.eplength+  "<br/>" + "Score: " + i.mean )
     .style("left", (d.pageX + 280) + "px")
-    .style("top", (d.pageY  + 300) + "px");
+    .style("top", (d.pageY  + 250) + "px");
 })
 .on('mouseout' , function(){
     d3.select("#tooltip").style("opacity", 0)
