@@ -65,8 +65,8 @@ svg4.selectAll("bar")
 .on('mousemove' , function(d , i){
     d3.select("#tooltip").style("opacity", 1)
     .html("Episode: " + i.episode +  "<br/>" + "Score: " + i.score2+  "<br/>" + "Reward: " + i.rewards2 + "<br/>" + "Length: " + i.length2)
-    .style("left", (d.pageX + 180) + "px")
-    .style("top", (d.pageY + 950) + "px");
+    .style("left", (d.pageX + 150) + "px")
+    .style("top", (d.pageY + 1050) + "px");
 })
 .on('mouseout' , function(){
     d3.select("#tooltip").style("opacity", 0)
