@@ -62,7 +62,7 @@ svg.selectAll("bar")
 })
 .on('mousemove' , function(d , i){
     d3.select("#tooltip").style("opacity", 1)
-    .html("Timestep: " + i.timestep +  "<br/>" + "Episode Length: " + i.eplength+  "<br/>" + "Score: " + i.mean )
+    .html("Timestep: " + i.timestep +  "<br/>" + "Episode Length: " + i.eplength+  "<br/>" + "Score: " + i.mean +  "<br/>" + "Standard Deviation: " + i.std )
     .style("left", (d.pageX + 280) + "px")
     .style("top", (d.pageY  + 250) + "px");
 })
